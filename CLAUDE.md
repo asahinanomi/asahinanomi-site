@@ -1,4 +1,4 @@
-# asahinanomi.com — working notes for Claude
+# nomi.earth — working notes for Claude
 
 nomi's personal site (nomi.earth). What nomi is and how it speaks: `docs/brand-story.md`, check new ideas against it. A single static `index.html`: no framework, no build step. One small Vercel function for the contact form.
 
@@ -11,7 +11,7 @@ nomi's personal site (nomi.earth). What nomi is and how it speaks: `docs/brand-s
 
 ## Deploy
 
-- Vercel is connected to this repo: every push to `main` deploys asahinanomi.com automatically (www.asahinanomi.com is the main domain; asahinanomi.com 308-redirects to it).
+- Vercel is connected to this repo: every push to `main` deploys nomi.earth automatically (asahinanomi.com is the older address, also on Vercel).
 - Work on `main` and push there. No steps needed from me.
 - Once it's deployed, say plainly: "It's live, you can test."
 - If Vercel needs me (login, approval, a failed deploy), tell me.

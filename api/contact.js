@@ -1,4 +1,4 @@
-// asahinanomi.com — email each contact form note to nomi through Resend.
+// nomi.earth — email each contact form note to nomi through Resend.
 // Vercel → project → Settings → Environment Variables: RESEND_API_KEY, CONTACT_TO (where the email goes),
 // and CONTACT_FROM (a sender on a domain verified in Resend, e.g. "asahina nomi <hello@squared.today>";
 // defaults to Resend's test sender, which can only email the Resend account's own address).
@@ -20,10 +20,10 @@ module.exports = async (req, res) => {
     method: 'POST',
     headers: { Authorization: `Bearer ${process.env.RESEND_API_KEY}`, 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      from: process.env.CONTACT_FROM || 'asahinanomi.com <onboarding@resend.dev>',
+      from: process.env.CONTACT_FROM || 'nomi.earth <onboarding@resend.dev>',
       to: process.env.CONTACT_TO,
       reply_to: e,
-      subject: `hello from asahinanomi.com: ${n}`,
+      subject: `hello from nomi.earth: ${n}`,
       text: `${m}\n\n${n} (${e})`,
     }),
   })
