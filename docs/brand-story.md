@@ -46,7 +46,7 @@ Small and calm. Two text colours, one sand, one green.
 |---|---|---|
 | sand | `#FAF6F1` | the page; the icon square is a touch deeper, `#F6EFE7` |
 | ink | `#141413` | headings and the marks |
-| grey | `#86817A` | every small line of text |
+| grey | `#6F6A63` | every small line of text |
 | line | `#E7DDD3` | raked sand lines, tile outlines, rules |
 | bud | `#7FA165` / `#8CAE70` | only the bud and things that are alive |
 
