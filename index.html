@@ -218,6 +218,10 @@
   .foot a:hover { color:var(--ink); }
   body::before { content:""; position:fixed; inset:0; pointer-events:none; z-index:-1;
     background:radial-gradient(70% 55% at 12% 6%, rgba(255,255,255,.55), transparent 70%), radial-gradient(60% 50% at 95% 100%, rgba(150,120,90,.07), transparent 70%); }
+  /* phones: the light needs to be stronger and wider to read on a small, bright screen */
+  @media (max-width:600px) {
+    body::before { background:radial-gradient(110% 50% at 0% 0%, rgba(255,255,255,.9), rgba(255,255,255,.35) 45%, transparent 75%), radial-gradient(70% 45% at 100% 100%, rgba(150,120,90,.09), transparent 70%); }
+  }
 </style>
 </head>
 <body>
