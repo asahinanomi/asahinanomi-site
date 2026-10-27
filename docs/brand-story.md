@@ -40,12 +40,13 @@ A raked sand garden. Warm, light sand, fine lines drawn by hand, one small green
 
 ## The look
 
-Small and calm. Two text colours, one sand, one green.
+Small and calm. Soft ink and one grey for text, one sand, one green.
 
 | | colour | used for |
 |---|---|---|
 | sand | `#FAF6F1` | the page; the icon square is a touch deeper, `#F6EFE7` |
-| ink | `#141413` | headings and the marks |
+| ink | `#141413` | the marks and icons |
+| soft ink | `#3A3631` / `#57524B` | the name, then the one line beneath it |
 | grey | `#6F6A63` | every small line of text |
 | line | `#E7DDD3` | raked sand lines, tile outlines, rules |
 | bud | `#7FA165` / `#8CAE70` | only the bud and things that are alive |
