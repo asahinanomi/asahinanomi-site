@@ -1,6 +1,6 @@
 # asahinanomi.com — working notes for Claude
 
-nomi's personal site. A single static `index.html`: no framework, no build step, no backend.
+nomi's personal site. A single static `index.html`: no framework, no build step. One small Vercel function for the contact form.
 
 ## Who & how
 
@@ -22,4 +22,4 @@ nomi's personal site. A single static `index.html`: no framework, no build step,
 
 ## Notes
 
-- Contact form: no Formspree ID set, so it opens the visitor's mail app to `asahinanomi@gmail.com`.
+- Contact form: posts to `api/contact.js` (a Vercel function), which emails nomi through Resend (same Resend account as squared). Env vars in Vercel: `RESEND_API_KEY`, `CONTACT_TO`, `CONTACT_FROM`. A hidden `website` field traps bots.

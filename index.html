@@ -237,6 +237,8 @@
           <label for="cf-msg">message</label>
           <textarea id="cf-msg" name="message" required></textarea>
         </div>
+        <!-- spam trap: hidden from people, bots fill it in -->
+        <input id="cf-website" name="website" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0" />
         <button type="submit" class="send" id="cf-send">send</button>
         <p class="status" id="cf-status" role="status" aria-live="polite"></p>
       </form>
@@ -245,7 +247,6 @@
 
   <script>
   (function () {
-    var FORMSPREE_ID = "";
     var CONTACT_EMAIL = "asahinanomi@gmail.com";
     var overlay = document.getElementById("contactOverlay");
     var openBtn = document.getElementById("openContact");
@@ -273,22 +274,18 @@
     overlay.addEventListener("click", function (e) { if (e.target === overlay) closeModal(); });
     form.addEventListener("submit", function (e) {
       e.preventDefault();
-      var name = document.getElementById("cf-name").value.trim();
-      var email = document.getElementById("cf-email").value.trim();
-      var message = document.getElementById("cf-msg").value.trim();
-      if (!FORMSPREE_ID) {
-        var subject = encodeURIComponent("hello from asahinanomi.com: " + name);
-        var body = encodeURIComponent(message + "\n\n" + name + " (" + email + ")");
-        window.location.href = "mailto:" + CONTACT_EMAIL + "?subject=" + subject + "&body=" + body;
-        statusEl.textContent = "opening your mail app…";
-        return;
-      }
       sendBtn.disabled = true;
       statusEl.textContent = "sending…";
-      fetch("https://formspree.io/f/" + FORMSPREE_ID, {
+      // /api/contact (a Vercel function) emails the note through Resend.
+      fetch("/api/contact", {
         method: "POST",
-        headers: { "Accept": "application/json" },
-        body: new FormData(form)
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: document.getElementById("cf-name").value.trim(),
+          email: document.getElementById("cf-email").value.trim(),
+          message: document.getElementById("cf-msg").value.trim(),
+          website: document.getElementById("cf-website").value
+        })
       }).then(function (r) {
         if (r.ok) {
           form.innerHTML = "<div class='sent-msg'><span class='big'>thanks, your note is on its way.</span><span class='small'>i read everything and will reply soon.</span></div>";
