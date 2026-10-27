@@ -33,9 +33,25 @@ A raked sand garden. Warm, light sand, fine lines drawn by hand, one small green
 
 ## The marks
 
-- **n…**: the site icon, an ink square, a serif n, three dots. Something still being written.
+- **the raked n**: the brand icon. Three lines drawn through sand in the shape of an n: the rake, the name and the garden in one mark. Ink lines on a sand square. Files: `favicon.svg`, `favicon.ico`, `apple-touch-icon.png`.
 - **永**: the brush workshop. It means "forever". Every brush student starts with it: it holds all eight basic strokes.
 - **the bud**: something just starting to grow. It sits where the sand lines turn.
+
+## The look
+
+Small and calm. Two text colours, one sand, one green.
+
+| | colour | used for |
+|---|---|---|
+| sand | `#FAF6F1` | the page; the icon square is a touch deeper, `#F6EFE7` |
+| ink | `#141413` | headings and the marks |
+| grey | `#86817A` | every small line of text |
+| line | `#E7DDD3` | raked sand lines, tile outlines, rules |
+| bud | `#7FA165` / `#8CAE70` | only the bud and things that are alive |
+
+- **Type:** Fraunces for anything that speaks (the name, the one line, titles). Inter for everything small. Lowercase.
+- **The raked n:** three arches 9 apart, round ends, stroke about 4% of the icon. Never filled, never coloured.
+- **Sand lines:** fine, hand-drawn, evenly spaced. Never 3d, never shaded.
 
 ## What lives here
 
