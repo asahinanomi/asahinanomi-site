@@ -247,7 +247,6 @@
 
   <script>
   (function () {
-    var CONTACT_EMAIL = "asahinanomi@gmail.com";
     var overlay = document.getElementById("contactOverlay");
     var openBtn = document.getElementById("openContact");
     var closeBtn = document.getElementById("closeContact");
@@ -291,11 +290,11 @@
           form.innerHTML = "<div class='sent-msg'><span class='big'>thanks, your note is on its way.</span><span class='small'>i read everything and will reply soon.</span></div>";
         } else {
           sendBtn.disabled = false;
-          statusEl.textContent = "something went wrong. try again, or email " + CONTACT_EMAIL + ".";
+          statusEl.textContent = "something went wrong. try again in a moment.";
         }
       }).catch(function () {
         sendBtn.disabled = false;
-        statusEl.textContent = "something went wrong. try again, or email " + CONTACT_EMAIL + ".";
+        statusEl.textContent = "something went wrong. try again in a moment.";
       });
     });
   })();
