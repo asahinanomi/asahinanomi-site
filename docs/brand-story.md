@@ -33,6 +33,7 @@ A raked sand garden. Warm, light sand, fine lines drawn by hand, one small green
 
 ## The marks
 
+- **the wordmark**: just **nomi**, where the first letter is the raked n itself, followed by "omi" in Fraunces. The icon and the name are one thing. The raked lines are a touch heavier than in the icon, to sit with the serif letters. Files in `docs/brand/`: `wordmark.svg`, `wordmark-earth.svg` (with ".earth" in grey, for share images and print), `wordmark-on-ink.svg`. Not on the site yet.
 - **the raked n**: the brand icon. Three lines drawn through sand in the shape of an n: the rake, the name and the garden in one mark. Ink lines on a sand square. Files: `favicon.svg`, `favicon.ico`, `apple-touch-icon.png`.
 - **永**: the brush workshop. It means "forever". Every brush student starts with it: it holds all eight basic strokes.
 - **the bud**: something just starting to grow. It sits where the sand lines turn.
@@ -51,6 +52,7 @@ Small and calm. Two text colours, one sand, one green.
 
 - **Type:** Fraunces for anything that speaks (the name, the one line, titles). Inter for everything small. Lowercase.
 - **The raked n:** three arches 9 apart, round ends, stroke about 4% of the icon. Never filled, never coloured.
+- **The wordmark:** the raked n sits on the baseline at the height of the small letters. Ink on sand, or sand on ink. ".earth", when shown, is grey. Never set the n in a font: it is always the raked mark.
 - **Sand lines:** fine, hand-drawn, evenly spaced. Never 3d, never shaded.
 
 ## What lives here
