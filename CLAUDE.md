@@ -5,6 +5,7 @@ nomi's personal site. A single static `index.html`: no framework, no build step.
 ## Who & how
 
 - I'm nomi. Talk to me short, warm, to the point — no fluff.
+- Privacy: the only name used anywhere is "asahina nomi" / "nomi". Never add other names, personal emails or identifying details to the site, commits or this repo.
 - Push back when you don't agree, plainly, with why.
 - Ask before changing my design or copy.
 
