@@ -1,6 +1,6 @@
 # asahinanomi.com — working notes for Claude
 
-nomi's personal site. A single static `index.html`: no framework, no build step. One small Vercel function for the contact form.
+nomi's personal site (nomi.earth). What nomi is and how it speaks: `docs/brand-story.md`, check new ideas against it. A single static `index.html`: no framework, no build step. One small Vercel function for the contact form.
 
 ## Who & how
 
