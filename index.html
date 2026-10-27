@@ -287,7 +287,9 @@
         })
       }).then(function (r) {
         if (r.ok) {
-          form.innerHTML = "<div class='sent-msg'><span class='big'>thanks, your note is on its way.</span><span class='small'>i read everything and will reply soon.</span></div>";
+          document.getElementById("contactTitle").hidden = true;
+          document.querySelector(".modal .hint").hidden = true;
+          form.innerHTML = "<div class='sent-msg'><span class='big'>thanks, your note is on its way.</span><span class='small'>i read everything and will reply accordingly.</span></div>";
         } else {
           sendBtn.disabled = false;
           statusEl.textContent = "something went wrong. try again in a moment.";
