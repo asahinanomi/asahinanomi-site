@@ -40,21 +40,52 @@ A raked sand garden. Warm, light sand, fine lines drawn by hand, one small green
 
 ## The look
 
-Small and calm. Soft ink and one grey for text, one sand, one green.
+Small, calm and warm. Nothing pure black, nothing pure white.
+
+### Colour
 
 | | colour | used for |
 |---|---|---|
-| sand | `#FAF6F1` | the page; the icon square is a touch deeper, `#F6EFE7` |
-| ink | `#141413` | the marks and icons |
-| soft ink | `#3A3631` / `#57524B` | the name, then the one line beneath it |
-| grey | `#6F6A63` | every small line of text |
-| line | `#E7DDD3` | raked sand lines, tile outlines, rules |
+| sand | `#FAF6F1` | the page, and the contact card |
+| deeper sand | `#F6EFE7` | the icon square |
+| pill sand | `#F0E8DF` | the "beta" and "building" pills |
+| field cream | `#FDFAF6` | form boxes |
+| ink | `#141413` | the marks only: the raked n, squared's mark, 永 |
+| soft ink | `#3A3631` | the name, titles, the send button, text you type, hovers |
+| line ink | `#57524B` | the one line under the name |
+| grey | `#6F6A63` | every small line of text (5 : 1 on sand) |
+| line | `#E7DDD3` | raked sand lines, tile outlines, dotted empty tiles, rules |
+| focus | `#B3AA9F` | the outline of the form box you're typing in |
 | bud | `#7FA165` / `#8CAE70` | only the bud and things that are alive |
 
-- **Type:** Fraunces for anything that speaks (the name, the one line, titles). Inter for everything small. Lowercase.
+Three steps of text, dark to light: soft ink, line ink, grey. Never more.
+
+### Type
+
+- **Fraunces** (450) for anything that speaks: the name 35px, the one line 19px, titles 20 to 22px, blurb titles 15px.
+- **Inter** for everything small: 14px for text and links, 12px for the footer and labels, 9px (600) for pills.
+- Lowercase throughout. No underlines.
+
+### The sand
+
+- **Grain:** a fine, even sandpaper grain over the whole page. Its strength is one number in the code (0.6 now; 0.8 is stronger).
+- **Light:** soft sunlight from the top left, a little depth at the bottom right. Stronger and wider on phones.
+- **Raked lines:** quarter circles from the top right corner, and an S-shaped sweep along the bottom. Fine, flat, hand-drawn, 12 apart. Never 3d, never shaded. They never cross the text.
+- **The bud:** sits in the bowl of the bottom sweep, where the lines turn.
+
+### Pieces
+
+- **Tiles:** rounded squares (13px corners), clear inside, a fine line outline. Live work at full strength; things still being built at half, coming up to full on hover or tap. Empty tiles are dotted.
+- **Pills:** pill sand, grey text. "building" has a small slow-pulsing dot.
+- **Blurbs:** hover a tile (or tap on a phone) and its name and note fade in, in place of the empty row, so nothing moves.
+- **Links:** quiet grey text ("about", "get in touch"), soft ink on hover.
+- **Contact card:** sand, with cream boxes, a soft focus outline and a soft ink send pill.
+- **About:** a short left-aligned note in a narrow column, "← back" above, signed "nomi" in grey Fraunces.
+
+### Marks
+
 - **The raked n:** three arches 9 apart, round ends, stroke about 4% of the icon. Never filled, never coloured.
 - **The wordmark:** the raked n sits on the baseline at the height of the small letters. Ink on sand, or sand on ink. ".earth", when shown, is grey. Never set the n in a font: it is always the raked mark.
-- **Sand lines:** fine, hand-drawn, evenly spaced. Never 3d, never shaded.
 
 ## What lives here
 
