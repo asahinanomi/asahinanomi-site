@@ -22,4 +22,4 @@ nomi's personal site. A single static `index.html`: no framework, no build step,
 
 ## Notes
 
-- Contact form: no Formspree ID set, so it opens the visitor's mail app to `hi@asahinanomi.com`.
+- Contact form: no Formspree ID set, so it opens the visitor's mail app to `asahinanomi@gmail.com`.
