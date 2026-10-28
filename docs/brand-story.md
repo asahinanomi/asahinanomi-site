@@ -48,7 +48,7 @@ Small, calm and warm. Nothing pure black, nothing pure white.
 |---|---|---|
 | sand | `#FAF6F1` | the page, and the contact card |
 | deeper sand | `#F6EFE7` | the icon square |
-| root sand | `#DCCFC2` | the "beta" and "building" pills (the colour of the bud's root), with line ink text |
+| root sand | `#E8DED3` | the "beta" and "building" pills (the colour of the bud's root), with line ink text |
 | field cream | `#FDFAF6` | form boxes |
 | ink | `#141413` | the marks only: the raked n, squared's mark, 永 |
 | soft ink | `#3A3631` | the name, titles, the send button, text you type, hovers |
@@ -76,7 +76,7 @@ Three steps of text, dark to light: soft ink, line ink, grey. Never more.
 ### Pieces
 
 - **Tiles:** rounded squares (13px corners), clear inside, a fine line outline. Live work at full strength; things still being built at half, coming up to full on hover or tap. Empty tiles are dotted.
-- **Pills:** root sand, line ink text. "building" has a small slow-pulsing dot.
+- **Pills:** root sand, line ink text. Words only, no dots.
 - **Blurbs:** hover a tile (or tap on a phone) and its name and note fade in, in place of the empty row, so nothing moves.
 - **Links:** quiet grey text ("about", "get in touch"), soft ink on hover.
 - **Contact card:** sand, with cream boxes, a soft focus outline and a soft ink send pill.
