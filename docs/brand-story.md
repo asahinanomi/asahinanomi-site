@@ -55,7 +55,7 @@ Small, calm and warm. Nothing pure black, nothing pure white.
 | line ink | `#57524B` | the one line under the name |
 | grey | `#6F6A63` | every small line of text (5 : 1 on sand) |
 | line | `#E7DDD3` | raked sand lines, tile outlines, dotted empty tiles, rules |
-| focus | `#B3AA9F` | the outline of the form box you're typing in |
+| focus | `#B3AA9F` | the outline of the form box you're typing in, and of a tile you hover or tap |
 | bud | `#7FA165` / `#8CAE70` | only the bud and things that are alive |
 
 Three steps of text, dark to light: soft ink, line ink, grey. Never more.
